@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+}
+.aa{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+.anao{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.segura{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.pronto{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    overflow: hidden;
+
+}
+.gestor{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    text-transform: capitalize;
+    
+}
+.dis{
+    font-size: 40px;
+    border-radius: 60px;
+    background-color: aqua;
+}
+.funda{
+    display: flex;
+    height: 450px;
+    width: 100vw;
+    margin: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    flex-direction: row;
+
+    transition: 0.5s;
+}
+
+  
+  .discount-tag {
+    position: relative;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+.fotin{
+    display: flex;
+    width: 200px;
+    height: auto;
+    flex-direction: column;
+    color: aliceblue;
+}
+.marg{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+    
+}
+.texto{
+    display: flex;
+    height: 100%;
+    color: aliceblue;
+    flex-direction: column;
+}
+.a{
+    display: flex;
+    height: 100%;
+    font-size: 12px;
+    justify-content: center;
+}
+.sla{
+    display: flex;
+    height: 100%;
+    font-size: 12px;  
+    justify-content: center;
+}
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #161515 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1;
+}
