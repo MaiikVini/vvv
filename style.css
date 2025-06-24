@@ -27,7 +27,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(88, 86, 86, 0.5)),
-    url("/img/ano.png");
+    url("./img/ano.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -376,7 +376,7 @@ p > .msm{
 #cargos{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5)),url("/img/imag.png");
+    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5)),url(".img/imag.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
