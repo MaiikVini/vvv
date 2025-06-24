@@ -592,7 +592,7 @@ body > #regras{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-image: linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5)),url("img/mes.png");
+    background-image: url("./img/mes.png"),linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -764,7 +764,7 @@ background-color: hsla(0, 0%, 80%, 0.1);
 #sobre{
     width: 100vw;
     height: 30vh;
-    background-image:url("/amor.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
+    background-image:url("./amor.png"), linear-gradient(rgba(88, 86, 86, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
